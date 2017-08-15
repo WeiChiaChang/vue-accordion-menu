@@ -1,15 +1,9 @@
 <template>
   <div class="faq-container">
-    <div class="faq-question" v-on:click="toggle(0)">
-      <div class="faq-description"><span class="faq-number">1</span>{{description}}<span>+</span></div>
+    <div class="faq-question" v-on:click="toggle(index)" v-for="(item, index) in faqs">
+      <div class="faq-description"><span class="faq-number">{{index + 1}}</span>{{item.title}}<span>+</span></div>
       <div class="faq-content" style="display: none;">
-        <p>{{content}}</p>
-      </div>
-    </div>
-    <div class="faq-question" v-on:click="toggle(1)">
-      <div class="faq-description"><span class="faq-number">2</span>What is chocolate?<span>+</span></div>
-      <div class="faq-content" style="display: none;">
-        <p>Chocolate most commonly comes in dark, milk, and white varieties, with cocoa solids contributing to the brown color.</p>
+        <p>{{item.msg}}</p>
       </div>
     </div>
   </div>
@@ -19,13 +13,14 @@
 export default {
   name: 'vue-accordion-menu',
   props: {
-    description: {
-      type: String,
-      default: '什麼是維大力？',
-    },
-    content: {
-      type: String,
-      default: 'I do not know, dude.',
+    faqs: {
+      type: Array,
+      default: [
+        {
+          title: 'How are you?',
+          msg: 'I am fine thank you.',
+        },
+      ],
     },
   },
   methods: {
