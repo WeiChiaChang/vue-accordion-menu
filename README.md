@@ -156,7 +156,7 @@ Enjoy your customized AccordionMenu! ![turtle](http://i.imgur.com/879dfXS.gif)
 
 # Example
 
-> TODO
+[Live Demo !](https://weichiachang.github.io/vue-accordion-menu/dist/)
 
 ---
 
