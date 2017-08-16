@@ -5,9 +5,7 @@
 
 Simple accordion menu component in Vue 2
 
-<p align="center">
- <img alt="AccordionMenu" style="display: none; margin: 0 auto;" src="https://i.imgur.com/Cefw7Nd.gif">
-</p>
+![AccordionMenu](https://i.imgur.com/Cefw7Nd.gif)
 
 ## Table of contents
 
@@ -112,7 +110,47 @@ Vue.component('AccordionMenu', AccordionMenu)
 
 # Usage
 
-> TODO
+First of all, after installing successfully then type these command in your main.js:
+
+```javascript
+import { AccordionMenu } from 'vue-accordion-menu'
+Vue.component('AccordionMenu', AccordionMenu)
+```
+
+Now you can add some customized contents for your accordion menu (use App.vue for example):
+
+```javascript
+data () {
+  return {
+    contents: [
+    {
+      title: 'How are you?',
+      msg: 'Test for fun!',
+    },
+    {
+      title: 'Who let the dog out?',
+      msg: 'I do not know, dude.',
+    },
+    {
+      title: '肚子好餓?',
+      msg: '吃芭樂啦！',
+    },
+    {
+      title: 'Find hotels?',
+      msg: 'Trivago！',
+    },
+    ],
+  }
+}
+```
+
+Last step, use it!
+
+```javascript
+<AccordionMenu :contents="contents"></AccordionMenu>
+```
+
+Enjoy your customized AccordionMenu! ![turtle](http://i.imgur.com/879dfXS.gif)
 
 # Example
 

@@ -1,6 +1,6 @@
 <template>
   <div class="faq-container">
-    <div class="faq-question" v-on:click="toggle(index)" v-for="(item, index) in faqs">
+    <div class="faq-question" v-on:click="toggle(index)" v-for="(item, index) in contents">
       <div class="faq-description"><span class="faq-number">{{index + 1}}</span>{{item.title}}<span>+</span></div>
       <div class="faq-content" style="display: none;">
         <p>{{item.msg}}</p>
@@ -13,7 +13,7 @@
 export default {
   name: 'vue-accordion-menu',
   props: {
-    faqs: {
+    contents: {
       type: Array,
       default: [
         {
