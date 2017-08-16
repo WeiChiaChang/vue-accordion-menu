@@ -5,8 +5,6 @@
 
 Simple accordion menu component in Vue 2
 
-![AccordionMenu](https://i.imgur.com/Cefw7Nd.gif)
-
 <p align="center">
  <img alt="AccordionMenu" style="display: none; margin: 0 auto;" src="https://i.imgur.com/Cefw7Nd.gif">
 </p>
