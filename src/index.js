@@ -1,14 +1,14 @@
-import Test from './components/accordionMenu.vue'
+import AccordionMenu from './components/accordionMenu.vue'
 
 // Install the components
 export function install (Vue) {
-  Vue.component('test', Test)
+  Vue.component('vue-accordion-menu', AccordionMenu)
   /* -- Add more components here -- */
 }
 
 // Expose the components
 export {
-  Test,
+  AccordionMenu,
   /* -- Add more components here -- */
 }
 

@@ -38,9 +38,9 @@ Use specific components:
 
 ```javascript
 import Vue from 'vue'
-import { Test } from 'vue-accordion-menu'
+import { AccordionMenu } from 'vue-accordion-menu'
 
-Vue.component('test', Test)
+Vue.component('AccordionMenu', AccordionMenu)
 ```
 
 **⚠️ A css file is included when importing the package. You may have to setup your bundler to embed the css in your page.**
@@ -60,9 +60,9 @@ Use specific components:
 
 ```javascript
 import 'vue-accordion-menu/dist/vue-accordion-menu.css'
-import { Test } from 'vue-accordion-menu/dist/vue-accordion-menu.common'
+import { AccordionMenu } from 'vue-accordion-menu/dist/vue-accordion-menu.common'
 
-Vue.component('test', Test)
+Vue.component('AccordionMenu', AccordionMenu)
 ```
 
 **⚠️ You may have to setup your bundler to embed the css file in your page.**
@@ -87,7 +87,7 @@ Vue.use(VueAccordionMenu)
 Use specific components:
 
 ```javascript
-Vue.component('test', VueAccordionMenu.Test)
+Vue.component('AccordionMenu', VueAccordionMenu.AccordionMenu)
 ```
 
 ## Source import
@@ -105,9 +105,9 @@ Use specific components:
 
 ```javascript
 import Vue from 'vue'
-import { Test } from 'vue-accordion-menu/src'
+import { AccordionMenu } from 'vue-accordion-menu/src'
 
-Vue.component('test', Test)
+Vue.component('AccordionMenu', AccordionMenu)
 ```
 
 **⚠️ You need to configure your bundler to compile `.vue` files.** More info [in the official documentation](https://vuejs.org/v2/guide/single-file-components.html).
