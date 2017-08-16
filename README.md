@@ -112,14 +112,14 @@ Vue.component('AccordionMenu', AccordionMenu)
 
 # Usage
 
-First of all, after installing successfully then type these command in your main.js:
+First of all, after installing successfully then type these command in your `main.js`:
 
 ```javascript
 import { AccordionMenu } from 'vue-accordion-menu'
 Vue.component('AccordionMenu', AccordionMenu)
 ```
 
-Now you can add some customized contents for your accordion menu (use App.vue for example):
+Now you can add some customized contents for your accordion menu (use `App.vue` for example):
 
 ```javascript
 data () {
@@ -146,7 +146,7 @@ data () {
 }
 ```
 
-Last step, use it!
+Last step, use it in your `App.vue` file!
 
 ```javascript
 <AccordionMenu :contents="contents"></AccordionMenu>
