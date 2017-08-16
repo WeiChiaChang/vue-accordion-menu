@@ -41,6 +41,8 @@ Vue.component('AccordionMenu', AccordionMenu)
 
 **⚠️ A css file is included when importing the package. You may have to setup your bundler to embed the css in your page.**
 
+**[This docs would be a great help](https://webpack.github.io/docs/stylesheets.html)**
+
 ## Distribution import
 
 Install all the components:
