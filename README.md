@@ -41,6 +41,8 @@ Vue.component('AccordionMenu', AccordionMenu)
 
 **⚠️ A css file is included when importing the package. You may have to setup your bundler to embed the css in your page.**
 
+**[This docs would be a great help](https://webpack.github.io/docs/stylesheets.html)**
+
 ## Distribution import
 
 Install all the components:
@@ -110,14 +112,14 @@ Vue.component('AccordionMenu', AccordionMenu)
 
 # Usage
 
-First of all, after installing successfully then type these command in your main.js:
+First of all, after installing successfully then type these command in your `main.js`:
 
 ```javascript
 import { AccordionMenu } from 'vue-accordion-menu'
 Vue.component('AccordionMenu', AccordionMenu)
 ```
 
-Now you can add some customized contents for your accordion menu (use App.vue for example):
+Now you can add some customized contents for your accordion menu (use `App.vue` for example):
 
 ```javascript
 data () {
@@ -144,7 +146,7 @@ data () {
 }
 ```
 
-Last step, use it!
+Last step, use it in your `App.vue` file!
 
 ```javascript
 <AccordionMenu :contents="contents"></AccordionMenu>
