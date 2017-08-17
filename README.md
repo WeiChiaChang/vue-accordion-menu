@@ -1,6 +1,7 @@
 # vue-accordion-menu
-
-[![npm](https://img.shields.io/npm/v/vue-accordion-menu.svg) ![npm](https://img.shields.io/npm/dm/vue-accordion-menu.svg)](https://www.npmjs.com/package/vue-accordion-menu)
+[![npm total](https://img.shields.io/npm/dt/vue-accordion-menu.svg)](https://www.npmjs.com/package/vue-accordion-menu)
+[![npm](https://img.shields.io/npm/v/vue-accordion-menu.svg)(https://www.npmjs.com/package/vue-accordion-menu)
+[![npm](https://img.shields.io/npm/dm/vue-accordion-menu.svg)](https://www.npmjs.com/package/vue-accordion-menu)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
 Simple accordion menu component in Vue 2
